@@ -1,0 +1,13 @@
+<?xml version="1.0"  encoding="utf-8"?>
+<XML-ROOTS_SQLS>
+    <SQLS>
+        <SQL-User>select user_id,login_id,lastname,role_ids,flag from users where login_id != '' and flag = %d </SQL-User>
+        <SQL-User-Total>select COUNT(1) as total from users WHERE login_id != '' and flag = %d</SQL-User-Total>
+        <SQL-Role>select id,role_code,sys_code from roles</SQL-Role>
+        <SQL-Role-Total>select COUNT(1) as total from roles</SQL-Role-Total>
+        <SQL-Action>select id,action_path,action_name,action_status,action_menu_id,sys_code from actions</SQL-Action>
+        <SQL-Action-Total>select COUNT(1) as total from actions</SQL-Action-Total>
+        <SQL-SYSCODE>select id,sys_name,sys_code from sys_infos</SQL-SYSCODE>
+        <SQL-ROLEACTION>select id,role_id,action_ids from role_actions  where role_id = %d</SQL-ROLEACTION>
+    </SQLS>
+</XML-ROOTS_SQLS>

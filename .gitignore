@@ -1,0 +1,17 @@
+.idea/*
+
+# Editor directories and files
+.idea
+.DS_Store
+.buildpath
+.project
+.settings/
+.php_cs.cache
+/ps_front/app/.git
+/ps_front/app/.idea/*
+config/app.php
+config/develop.php
+ps.stosz.com
+console.php
+/vendor/
+/msoa.stosz.com/*

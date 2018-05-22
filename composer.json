@@ -1,0 +1,30 @@
+{
+  "name": "bgnbi/bgndeveloperbi",
+  "description": "bi_statistics",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "chris",
+      "email": "tanchongtao@stosz.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "php" : "7.0",
+    "symfony/console": "@stable"
+  },
+  "require-dev": {
+  },
+  "autoload": {
+    "classmap": [
+    ],
+    "psr-4": {
+    }
+  },
+  "repositories": {
+    "packagist": {
+      "type": "composer",
+      "url": "https://packagist.phpcomposer.com"
+    }
+  }
+}
